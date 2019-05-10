@@ -15,8 +15,6 @@ loginurl = 'http://my.lzu.edu.cn/userPasswordValidate.portal'
 homeurl = 'http://my.lzu.edu.cn/index.portal'
 courseurl = 'http://jwk.lzu.edu.cn/academic/calogin.jsp'
 mainurl = "http://jwk.lzu.edu.cn/academic/student/currcourse/currcourse.jsdo"
-lzuCalUrl = "http://jwk.lzu.edu.cn/academic/calendar/calendarViewList.do?groupId=&moduleId=400"
-courseFreeUrl = "http://jwk.lzu.edu.cn/academic/student/currcourse/currcourse.jsdo?year=38&term=2"
 
 # 密码输入自动转为***
 def passwdInput():
