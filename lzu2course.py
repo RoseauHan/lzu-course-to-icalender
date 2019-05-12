@@ -213,8 +213,7 @@ def lzu_login():
     print("欢迎使用Lzu2Ics！ created by roseauhan")
     global User
     User = input("请输入兰大邮箱，不包括后缀: ")
-    # passwd = passwdInput()
-    passwd = input("请输入密码")
+    passwd = passwdInput()
     payload = {
         'Login.Token1': User,
         'Login.Token2': passwd,
