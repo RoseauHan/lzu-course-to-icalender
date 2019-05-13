@@ -3,7 +3,7 @@
 登录兰州大学教务在线，自动将课程生成icalender文件，可以方便的添加到各类通用日历中。 Enjoy yourself！
 
 ![demo](./img/demo1.png) 
-(更多图片展示)[]
+(更多图片展示)[https://github.com/RoseauHan/lzu2ics/tree/master/img]
 
 ## icalender 是什么？
 [iCalendar](https://www.ibm.com/developerworks/cn/java/j-lo-ical4j/index.html)，简称“iCal”，是“日历数据交换”的标准（RFC 2445），该标准提供了一种公共的数据格式用于存储关于日历方面的信息，比如事件、约定、待办事项等。它不仅允许用户通过电子邮件发送会议或者待办事件等，也允许独立使用，而不局限于某种传输协议。
@@ -52,6 +52,7 @@ then, follow the terminal hint.
 
 ## Others
 欢迎PR、提issue！
+
 项目部分灵感来源：[cqut-lesson-timetable-to-calendar](https://github.com/acbetter/cqut-lesson-timetable-to-calendar) Thanks！
 
 # LICENSE 
