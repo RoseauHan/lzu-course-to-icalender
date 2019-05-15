@@ -1,19 +1,13 @@
-# lzu2icalender
-如果你和我一样，不喜欢使用第三方的课表软件（要么太丑，要么太臃肿，或者两者都有……）, 那么是时候使用一个简单的、原生的工具了！立马导出课程的icalender文件，添加到你的日程中吧！
-登录兰州大学教务在线，自动将课程生成icalender文件，可以方便的添加到各类通用日历中。 Enjoy yourself！
+# LZU-Course-to-icalender
+[中文介绍点这里](https://github.com/RoseauHan/lzu-course-to-icalender/blob/master/README-CN.md)
+Login in to lanzhou university's website to get course infomation and then automatically output an icalender file, which you can add it to your universal calender, such as Google Calender, Apple Calender and so on.    
+Please feel free to enjoy yourself！
 
 ![demo](./img/demo1.png) 
-[更多图片展示](https://github.com/RoseauHan/lzu2ics/blob/master/img/README.md)
+[More pic show](https://github.com/RoseauHan/lzu2ics/blob/master/img/README.md)
 
-## icalender 是什么？
-[iCalendar](https://www.ibm.com/developerworks/cn/java/j-lo-ical4j/index.html)，简称“iCal”，是“日历数据交换”的标准（RFC 2445），该标准提供了一种公共的数据格式用于存储关于日历方面的信息，比如事件、约定、待办事项等。它不仅允许用户通过电子邮件发送会议或者待办事件等，也允许独立使用，而不局限于某种传输协议。
-
-目前，所有流行日历工具比如：Lotus Notes、Outlook、GMail 和 Apple 的 iCal 都支持 iCalendar 标准，其文件扩展名为 .ical、.ics、.ifb 或者 .icalendar。C&S（Calendaring and Scheduling） 核心对象是一系列日历和行程安排信息。通常情况下，这些日历和行程信息仅仅包含一个 iCalendar 组件（iCalendar 组件分为 Events(VEVENT)、To-do(VTODO)、Journal(VJOURNAL)、Free/busy time (VFREEBUSY)、VTIMEZONE (time zones) 和 VALARM (alarms)），但是多个 iCalendar 组件可以被组织在一起。
-
-## 本项目的功能？
-自动将课表生成icalender文件，方便导入到各类日程中。
-- 获取2016-2019年的所有课程icalender文件
-- 自定义获取任意年的课程（需要自己输入开学时间）
+## What is icalender ？
+[iCalendar](https://icalendar.org/) is a standard method of transferring calendar information between computer systems. The standard allows products from many vendors to transfer calendar information between each other.  iCalendar files typically have the file extension ".ical" ".ics" ".ifb"  or ".icalendar" with a MIME type of "text/calendar".
 
 ## INSTALLATION
 
@@ -38,26 +32,20 @@ python3 lzu2icalender.py
 then, follow the terminal hint.
 
 
-## 已知issue
-- 如果使用windows的py解释器，生成的文件可能包含空行。而这可能会导致课表导入失败，建议使用Linux下的py解释器。
-- google calender可能无法打开文件，解决方案：卸载重装…… 这个问题目前并不清楚原因……
+## Known issues so far
+- if using windows's python Interpreter, the output file may have blank lines, which will occur error.
+- google calender may can't import the output.ics file, you can uninstall and install again to solve this problem sometimes……
 
 ## TODO list
-- [ ] 兼容更多日历格式
-- [ ] 一次性生成所有可用课表
-- [ ] 提供一个美观的前端界面
-- [ ] 使用 google 提供的接口，直接在线导入google calender
-- [ ] 面向对象重构
-
+- [ ] Compatible with more calendar formats
+- [ ] output all available calender at one time.
+- [ ] provide a beaufiful front-end website.
+- [ ] Using google's calender api，add to google calender event online.
+- [ ] Object-oriented reconstruction
 
 ## Others
-欢迎PR、提issue！
-
-项目部分灵感来源：[cqut-lesson-timetable-to-calendar](https://github.com/acbetter/cqut-lesson-timetable-to-calendar) Thanks！
+all issues are welcome.
 
 # LICENSE 
 
 GPL-3.0
-
-
-
