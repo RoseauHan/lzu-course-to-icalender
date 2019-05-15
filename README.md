@@ -1,5 +1,6 @@
 # LZU-Course-to-icalender
 [中文介绍点这里](https://github.com/RoseauHan/lzu-course-to-icalender/blob/master/README-CN.md)
+
 Login in to lanzhou university's website to get course infomation and then automatically output an icalender file, which you can add it to your universal calender, such as Google Calender, Apple Calender and so on.    
 Please feel free to enjoy yourself！
 
