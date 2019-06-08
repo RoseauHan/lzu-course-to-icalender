@@ -51,7 +51,7 @@ One more thing!
 we make a wechat mini program for lanzhou university student, which can not only provide  coursetable but also empty rooms, library books,  timetables, common phone numbers and so on!
 Why not try it right now!
 
-![wechat-mini-program-code](./img/welzu_QRcode.jpg)
+![wechat-mini-program-code](./img/welzu_code.jpg)
 
 # LICENSE 
 
